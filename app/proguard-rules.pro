@@ -1,0 +1,5 @@
+-keepattributes *Annotation*, InnerClasses, Signature
+-keep,includedescriptorclasses class ru.napominaniya.app.**$$serializer { *; }
+-keepclassmembers class ru.napominaniya.app.** { *** Companion; }
+-keepclasseswithmembers class ru.napominaniya.app.** { kotlinx.serialization.KSerializer serializer(...); }
+-dontwarn org.slf4j.**

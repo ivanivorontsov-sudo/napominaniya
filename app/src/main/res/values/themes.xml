@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.Napom" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">?attr/colorSurface</item>
+    </style>
+    <style name="Theme.Napom.Ring" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:windowBackground">#FF101418</item>
+    </style>
+    <color name="ic_bg">#FF1565C0</color>
+</resources>
